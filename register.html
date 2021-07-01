@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selbu App | Registrering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Østrungens venner</h1>
+      </header>
+<h2>Registrer bruker</h2>
+    <form
+      action="register.php"
+      class="register-form"
+      id="register-form"
+      method="POST"
+      name="register-form"
+    >
+      <label for="username">Email</label>
+      <input type="email" id="username" name="username" placeholder="Email" />
+      <label for="password">Passord</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+      <!-- <label for="password">Gjenta passord</label>
+      <input
+        type="password"
+        id="confirm-password"
+        name="confirm-password"
+        placeholder="Gjenta passord"
+      /> -->
+      <input type="submit" id="submit" value="Registrer" />
+    </form>
+</body>
+</html>

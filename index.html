@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innlogging og registrering | SelbuApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+      <h1>Østrungens venner</h1>
+    </header>
+    <main class="main-content">
+      <h2>Vennligst logg inn</h2>
+      <form
+        action="login.php"
+        class="login-form"
+        id="login-form"
+        method="POST"
+        name="login-form"
+      >
+        <label for="username">Email</label>
+        <input type="email" id="username" name="username" placeholder="Email" />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        />
+        <input type="submit" id="submit" value="Logg inn" />
+      </form>
+      <a href="register.html">Ny bruker</a>
+      <a href="forgotten.html">Glemt passord ?</a>
+     <!--  <?php include 'login.php'?> -->
+     
+    </main>
+    <footer class="footer-content">
+     
+    </footer>
+</body>
+</html>

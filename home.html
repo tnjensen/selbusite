@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selbu App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="home">
+    <header>
+      <div class="site-header">
+        <button class="menu-btn"><i class="fa fa-bars"></i></button>
+        <ul class="navbar">
+          <li class="item" id="home"><a href="index.html">Home</a></li>
+          <li class="item">
+           Services
+             <i class="fa fa-caret-down has-dropdown" tabindex="0"></i>
+          
+           <!-- <a class="dropbtn" onClick="dropDown('dropdown');">Services&nbsp;<i class="fa fa-caret-down" aria-hidden="true"></i></a> -->
+            <ul class="dropdown">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Maintenance</a></li>
+            </ul>
+          </li>
+          <li class="item">
+              Products
+              <i class="fa fa-caret-down has-dropdown" tabindex="0""></i>
+            <ul class="dropdown">
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Adults</a></li>
+            </ul>
+            </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Østrungens venner</h1>
+      <h2>Kalender</h2>
+      <div class="nav-buttons">
+      <button class="previous"><i class="fa fa-arrow-left"></i>&nbsp;Forrige</button>
+      <button class="previous">Neste&nbsp;<i class="fa fa-arrow-right"></i></button>
+    </div>
+    <div class="calendar">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FOslo&amp;src=ZDFoamQyaWM0OW9taHVmdmkwM2hiajhiMm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=bm8ubm9yd2VnaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23E67C73&amp;color=%23616161" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>    
+    </div>
+   <!--  <a href="logout.php">logout</a> -->
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
